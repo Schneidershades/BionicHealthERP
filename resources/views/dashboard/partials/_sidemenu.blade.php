@@ -10,14 +10,14 @@
 	  <div class="media align-items-center user-pointer collapsed" data-toggle="collapse" data-target="#user-dropdown">
 	    <div class="avatar"><img class="mr-3 side-user-img" src="assets/images/avatars/avatar-4.png" alt="user avatar"></div>
 	     <div class="media-body">
-	     <h6 class="side-user-name">Mark Jhonsan</h6>
+	     <h6 class="side-user-name">Weje Praise</h6>
 	    </div>
        </div>
 	   <div id="user-dropdown" class="collapse">
 		  <ul class="user-setting-menu">
             <li><a href="javaScript:void();"><i class="icon-user"></i>  My Profile</a></li>
             <li><a href="javaScript:void();"><i class="icon-settings"></i> Setting</a></li>
-			<li><a href="javaScript:void();"><i class="icon-power"></i> Logout</a></li>
+			      <li><a href="javaScript:void();"><i class="icon-power"></i> Logout</a></li>
 		  </ul>
 	   </div>
       </div>
@@ -25,53 +25,34 @@
       <li class="sidebar-header">MAIN NAVIGATION</li>
       <li>
         <a href="index.html" class="waves-effect">
-          <i class="icon-home"></i><span>Dashboard</span><i class="fa fa-angle-left pull-right"></i>
+          <i class="icon-home"></i><span>Health-care Stats</span><i class="fa fa-angle-left pull-right"></i>
         </a>
         <ul class="sidebar-submenu">
-          <li><a href="index.html"><i class="fa fa-long-arrow-right"></i> Dashboard v1</a></li>
-          <li><a href="index2.html"><i class="fa fa-long-arrow-right"></i> Dashboard v2</a></li>
-          <li><a href="index3.html"><i class="fa fa-long-arrow-right"></i> Dashboard v3</a></li>
+          <li><a href=""><i class="fa fa-long-arrow-right"></i> Patients </a></li>
+          <li><a href=""><i class="fa fa-long-arrow-right"></i> Records</a></li>
+          <li><a href=""><i class="fa fa-long-arrow-right"></i> Dispensery</a></li>
         </ul>
       </li>
       <li>
         <a href="javaScript:void();" class="waves-effect">
-        <i class="icon-handbag"></i><span>UI Elements</span> 
-		   <i class="fa fa-angle-left pull-right"></i>
+        <i class="icon-handbag"></i><span>Patients</span> 
+		    <i class="fa fa-angle-left pull-right"></i>
         </a>
         <ul class="sidebar-submenu">
-      		  <li><a href="ui-typography.html"><i class="fa fa-long-arrow-right"></i> Typography</a></li>
-      		  <li><a href="ui-buttons.html"><i class="fa fa-long-arrow-right"></i> Buttons</a></li>
-      		  <li><a href="ui-cards.html"><i class="fa fa-long-arrow-right"></i> Cards</a></li>
-      		  <li><a href="ui-checkbox-radio.html"><i class="fa fa-long-arrow-right"></i> Checkboxes & Radios</a></li>
-      		  <li><a href="ui-tabs-accordions.html"><i class="fa fa-long-arrow-right"></i> Tabs & Accordions</a></li>
-      		  <li><a href="ui-modals.html"><i class="fa fa-long-arrow-right"></i> Modals</a></li>
-      		  <li><a href="ui-bootstrap-elements.html"><i class="fa fa-long-arrow-right"></i> BS Elements</a></li>
-			  <li><a href="ui-pagination.html"><i class="fa fa-long-arrow-right"></i> Pagination</a></li>
-			  <li><a href="ui-list-groups.html"><i class="fa fa-long-arrow-right"></i> List Groups</a></li>
-			  <li><a href="ui-alerts.html"><i class="fa fa-long-arrow-right"></i> Alerts</a></li>
-      		  <li><a href="ui-progressbars.html"><i class="fa fa-long-arrow-right"></i> Progress Bars</a></li>
-      		  <li><a href="ui-notification.html"><i class="fa fa-long-arrow-right"></i> Notifications</a></li>
-      		  <li><a href="ui-sweet-alert.html"><i class="fa fa-long-arrow-right"></i> Sweet Alerts</a></li>
-      		  <li><a href="ui-color-palette.html"><i class="fa fa-long-arrow-right"></i> Color Palette</a></li>
-      		  <li><a href="ui-lightbox-gallery.html"><i class="fa fa-long-arrow-right"></i> Lightbox gallery</a></li>
+      		  <li><a href=""><i class="fa fa-long-arrow-right"></i> Add New Patients</a></li>
+      		  <li><a href=""><i class="fa fa-long-arrow-right"></i> View patients</a></li>
         </ul>
       </li>
 	  
 	  <li>
         <a href="javaScript:void();" class="waves-effect">
-           <i class="icon-diamond"></i><span>Components</span>
+           <i class="icon-diamond"></i><span>Staff</span>
           <i class="fa fa-angle-left pull-right"></i>
         </a>
         <ul class="sidebar-submenu">
-          <li><a href="components-grid-layouts.html"><i class="fa fa-long-arrow-right"></i> Grid Layouts</a></li>
-    		  <li><a href="components-nestable.html"><i class="fa fa-long-arrow-right"></i> Nesteble</a></li>
-    		  <li><a href="components-tree-view-menu.html"><i class="fa fa-long-arrow-right"></i> Tree View</a></li>
-    		  <li><a href="components-switcher-buttons.html"><i class="fa fa-long-arrow-right"></i> Switcher Buttons</a></li>
-    		  <li><a href="components-range-slider.html"><i class="fa fa-long-arrow-right"></i> Range Sliders</a></li>
-    		  <li><a href="components-vertical-timeline.html"><i class="fa fa-long-arrow-right"></i> Vertical Timeline</a></li>
-    		  <li><a href="components-horizontal-timeline.html"><i class="fa fa-long-arrow-right"></i> Horizontal Timeline</a></li>
-    		  <li><a href="components-pricing-table.html"><i class="fa fa-long-arrow-right"></i> Pricing Tables</a></li>
-              <li><a href="components-image-carousel.html"><i class="fa fa-long-arrow-right"></i> Image Carousels</a></li>
+          <li><a href=""><i class="fa fa-long-arrow-right"></i> All Staff</a></li>
+    		  <li><a href=""><i class="fa fa-long-arrow-right"></i> Add new staff</a></li>
+    		  <li><a href=""><i class="fa fa-long-arrow-right"></i> Attendance</a></li>
         </ul>
       </li>
 	  <li>
@@ -81,11 +62,12 @@
       </li>
 	  <li>
         <a href="javaScript:void();" class="waves-effect">
-          <i class="icon-lock-open"></i><span>Authentication</span>
+          <i class="icon-lock-open"></i><span>Dispensery</span>
           <i class="fa fa-angle-left float-right"></i>
         </a>
         <ul class="sidebar-submenu">
-          <li><a href="authentication-signin.html" target="_blank"><i class="fa fa-long-arrow-right"></i> SignIn 1</a></li>
+          <li class="sidebar-header text-info">DARK AUTHENTICATION</li>
+          <li><a href="authentication-signin.html" target="_blank"><i class="fa fa-long-arrow-right"></i>New Inventory</a></li>
           <li><a href="authentication-signin2.html" target="_blank"><i class="fa fa-long-arrow-right"></i> SignIn 2</a></li>
           <li><a href="authentication-signup.html" target="_blank"><i class="fa fa-long-arrow-right"></i> SignUp 1</a></li>
           <li><a href="authentication-signup2.html" target="_blank"><i class="fa fa-long-arrow-right"></i> SignUp 2</a></li>
@@ -102,7 +84,7 @@
        </li>
 	  <li>
         <a href="javaScript:void();" class="waves-effect">
-          <i class="icon-pie-chart"></i><span>Charts</span>
+          <i class="icon-pie-chart"></i><span>User Roles & Permission</span>
           <i class="fa fa-angle-left float-right"></i>
         </a>
         <ul class="sidebar-submenu">
@@ -117,7 +99,7 @@
        </li>
 	   <li>
         <a href="javaScript:void();" class="waves-effect">
-          <i class="icon-note"></i><span>Forms</span>
+          <i class="icon-note"></i><span>Attendance</span>
           <i class="fa fa-angle-left pull-right"></i>
         </a>
         <ul class="sidebar-submenu">
@@ -136,13 +118,13 @@
 	  
 	   <li>
         <a href="calendar.html" class="waves-effect">
-          <i class="icon-calendar"></i><span>Calendar</span>
+          <i class="icon-calendar"></i><span>Medication</span>
           <small class="badge float-right badge-info">New</small>
         </a>
       </li>
 	  <li>
         <a href="javaScript:void();" class="waves-effect">
-          <i class="icon-grid"></i><span>Tables</span>
+          <i class="icon-grid"></i><span>Appointments</span>
           <i class="fa fa-angle-left float-right"></i>
         </a>
         <ul class="sidebar-submenu">
@@ -155,7 +137,7 @@
        </li>
 	   <li>
         <a href="javaScript:void();" class="waves-effect">
-          <i class="icon-magnet"></i><span>UI Icons</span>
+          <i class="icon-magnet"></i><span>Health-Care Services</span>
           <i class="fa fa-angle-left float-right"></i>
         </a>
         <ul class="sidebar-submenu">
@@ -168,7 +150,7 @@
       </li>
       <li>
         <a href="javaScript:void();" class="waves-effect">
-          <i class="icon-envelope-letter"></i><span>Mailbox</span>
+          <i class="icon-envelope-letter"></i><span>Administration</span>
 		  <small class="badge float-right badge-warning">12</small>
         </a>
         <ul class="sidebar-submenu">
@@ -180,7 +162,7 @@
       
 	   <li>
         <a href="javaScript:void();" class="waves-effect">
-          <i class="icon-map"></i><span>Maps</span>
+          <i class="icon-map"></i><span>Bill Payments</span>
           <i class="fa fa-angle-left float-right"></i>
         </a>
         <ul class="sidebar-submenu">
@@ -191,7 +173,7 @@
 	   
 	   <li>
         <a href="javaScript:void();" class="waves-effect">
-          <i class="icon-folder-alt"></i><span>Extra Pages</span>
+          <i class="icon-folder-alt"></i><span>NHIS Scheme</span>
           <i class="fa fa-angle-left float-right"></i>
         </a>
         <ul class="sidebar-submenu">
