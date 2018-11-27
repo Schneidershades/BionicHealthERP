@@ -150,7 +150,7 @@
       </li>
       <li>
         <a href="javaScript:void();" class="waves-effect">
-          <i class="icon-envelope-letter"></i><span>Administration</span>
+          <i class="icon-envelope-letter"></i><span>Contacts</span>
 		  <small class="badge float-right badge-warning">12</small>
         </a>
         <ul class="sidebar-submenu">
@@ -187,6 +187,18 @@
 		  <li><a href="pages-500.html"><i class="fa fa-long-arrow-right"></i> 500 Error</a></li>
         </ul>
        </li>
+
+
+      <li>
+        <a href="javaScript:void();" class="waves-effect">
+          <i class="icon-folder-alt"></i><span>Administration</span>
+          <i class="fa fa-angle-left float-right"></i>
+        </a>
+        <ul class="sidebar-submenu">
+          <li><a href="pages-invoice.html"><i class="fa fa-long-arrow-right"></i> Health-care Setting</a></li>
+        </ul>
+       </li>
+
 
       <li>
         <a href="javaScript:void();" class="waves-effect">
