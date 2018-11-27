@@ -17,7 +17,7 @@ Route::get('/', function () {
 
 
 Route::get('/dashboard', function () {
-    return view('dashboard.pages.home');
+    return view('dashboard.health-care.home');
 });
 Auth::routes();
 
