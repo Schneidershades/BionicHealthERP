@@ -28,7 +28,7 @@
           <li class="list-group-item">
           <a href="javaScript:void();">
            <div class="media">
-             <div class="avatar"><img class="align-self-start mr-3" src="assets/images/avatars/avatar-1.png" alt="user avatar"></div>
+             <div class="avatar"><img class="align-self-start mr-3" src="{{ URL::to('assets/images/avatars/avatar-1.png')}}" alt="user avatar"></div>
             <div class="media-body">
             <h6 class="mt-0 msg-title">Jhon Deo</h6>
             <p class="msg-info">Lorem ipsum dolor sit amet...</p>
@@ -40,7 +40,7 @@
           <li class="list-group-item">
           <a href="javaScript:void();">
            <div class="media">
-             <div class="avatar"><img class="align-self-start mr-3" src="assets/images/avatars/avatar-2.png" alt="user avatar"></div>
+             <div class="avatar"><img class="align-self-start mr-3" src="{{ URL::to('assets/images/avatars/avatar-2.png')}}" alt="user avatar"></div>
             <div class="media-body">
             <h6 class="mt-0 msg-title">Sara Jen</h6>
             <p class="msg-info">Lorem ipsum dolor sit amet...</p>
@@ -52,7 +52,7 @@
           <li class="list-group-item">
           <a href="javaScript:void();">
            <div class="media">
-             <div class="avatar"><img class="align-self-start mr-3" src="assets/images/avatars/avatar-3.png" alt="user avatar"></div>
+             <div class="avatar"><img class="align-self-start mr-3" src="{{ URL::to('assets/images/avatars/avatar-3.png')}}" alt="user avatar"></div>
             <div class="media-body">
             <h6 class="mt-0 msg-title">Dannish Josh</h6>
             <p class="msg-info">Lorem ipsum dolor sit amet...</p>
@@ -64,7 +64,7 @@
           <li class="list-group-item">
           <a href="javaScript:void();">
            <div class="media">
-             <div class="avatar"><img class="align-self-start mr-3" src="assets/images/avatars/avatar-4.png" alt="user avatar"></div>
+             <div class="avatar"><img class="align-self-start mr-3" src="{{ URL::to('assets/images/avatars/avatar-4.png')}}" alt="user avatar"></div>
             <div class="media-body">
             <h6 class="mt-0 msg-title">Katrina Mccoy</h6>
             <p class="msg-info">Lorem ipsum dolor sit amet.</p>
@@ -134,13 +134,13 @@
     </li>
     <li class="nav-item">
       <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" data-toggle="dropdown" href="#">
-        <span class="user-profile"><img src="assets/images/avatars/avatar-17.png" class="img-circle" alt="user avatar"></span>
+        <span class="user-profile"><img src="{{ URL::to('assets/images/avatars/avatar-17.png')}}" class="img-circle" alt="user avatar"></span>
       </a>
       <ul class="dropdown-menu dropdown-menu-right animated fadeIn">
        <li class="dropdown-item user-details">
         <a href="javaScript:void();">
            <div class="media">
-             <div class="avatar"><img class="align-self-start mr-3" src="assets/images/avatars/avatar-17.png" alt="user avatar"></div>
+             <div class="avatar"><img class="align-self-start mr-3" src="{{ URL::to('assets/images/avatars/avatar-17.png')}}" alt="user avatar"></div>
             <div class="media-body">
             <h6 class="mt-2 user-title">Katrina Mccoy</h6>
             <p class="user-subtitle">katrina92@example.com</p>

@@ -2,13 +2,13 @@
    <div id="sidebar-wrapper" data-simplebar="" data-simplebar-auto-hide="true">
      <div class="brand-logo">
       <a href="index.html">
-       <img src="assets/images/logo-icon.png" class="logo-icon" alt="logo icon">
+       <img src="{{ URL::to('assets/images/logo-icon.png')}}" class="logo-icon" alt="logo icon">
        <h5 class="logo-text"> Bionic Health</h5>
      </a>
 	 </div>
 	 <div class="user-details">
 	  <div class="media align-items-center user-pointer collapsed" data-toggle="collapse" data-target="#user-dropdown">
-	    <div class="avatar"><img class="mr-3 side-user-img" src="assets/images/avatars/avatar-4.png" alt="user avatar"></div>
+	    <div class="avatar"><img class="mr-3 side-user-img" src="{{ URL::to('assets/images/avatars/avatar-4.png')}}" alt="user avatar"></div>
 	     <div class="media-body">
 	     <h6 class="side-user-name">Weje Praise</h6>
 	    </div>

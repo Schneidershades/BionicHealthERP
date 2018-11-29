@@ -33,9 +33,9 @@
         <div class="card">
           <div class="card-body text-center bg-primary rounded-top">
            <div class="user-box">
-            <img src="assets/images/avatars/avatar-1.png" alt="user avatar"/>
+            <img src="{{URL::to('assets/images/avatars/avatar-1.png')}}" alt="user avatar"/>
           </div>
-          <h5 class="mb-1 text-white">Mark Okonjo</h5>
+          <h5 class="mb-1 text-white">Maria Okonjo</h5>
           <h6 class="text-light">Patient</h6>
          </div>
           <div class="card-body">
@@ -67,28 +67,37 @@
                 <small>Website Address</small>
               </div>
             </li>
+            <li class="list-group-item">
+              <div class="list-icon">
+                <i class="fa fa-book"></i>
+              </div>
+              <div class="list-details">
+                <span>NHIS Plan</span>
+                <small>YES</small>
+              </div>
+            </li>
             </ul>
             <div class="row text-center mt-4">
               <div class="col p-2">
-               <h4 class="mb-1 line-height-5">154</h4>
-                <small class="mb-0 font-weight-bold">Projects</small>
+               <h4 class="mb-1 line-height-5">14,000/M</h4>
+                <small class="mb-0 font-weight-bold">NHIS</small>
                </div>
                 <div class="col p-2">
-                  <h4 class="mb-1 line-height-5">2.2k</h4>
-                 <small class="mb-0 font-weight-bold">Followers</small>
+                  <h4 class="mb-1 line-height-5">4</h4>
+                 <small class="mb-0 font-weight-bold">Family</small>
                 </div>
                 <div class="col p-2">
-                 <h4 class="mb-1 line-height-5">9.1k</h4>
-                 <small class="mb-0 font-weight-bold">Views</small>
+                 <h4 class="mb-1 line-height-5">239</h4>
+                 <small class="mb-0 font-weight-bold">Health Engagement</small>
                 </div>
              </div>
            </div>
-           <div class="card-footer text-center">
+           <!-- <div class="card-footer text-center">
              <a href="javascript:void()" class="btn-social btn-facebook waves-effect waves-light m-1"><i class="fa fa-facebook"></i></a>
              <a href="javascript:void()" class="btn-social btn-google-plus waves-effect waves-light m-1"><i class="fa fa-google-plus"></i></a>
              <a href="javascript:void()" class="list-inline-item btn-social btn-behance waves-effect waves-light"><i class="fa fa-behance"></i></a>
              <a href="javascript:void()" class="list-inline-item btn-social btn-dribbble waves-effect waves-light"><i class="fa fa-dribbble"></i></a>
-           </div>
+           </div> -->
          </div>
        </div>
     </div>
@@ -100,10 +109,10 @@
                 <a href="javascript:void();" data-target="#profile" data-toggle="pill" class="nav-link active"><i class="icon-user"></i> <span class="hidden-xs">Profile</span></a>
             </li>
             <li class="nav-item">
-                <a href="javascript:void();" data-target="#messages" data-toggle="pill" class="nav-link"><i class="icon-envelope-open"></i> <span class="hidden-xs">Messages</span></a>
+                <a href="javascript:void();" data-target="#messages" data-toggle="pill" class="nav-link"><i class="icon-envelope-open"></i> <span class="hidden-xs">Diagnose/ Test</span></a>
             </li>
             <li class="nav-item">
-                <a href="javascript:void();" data-target="#edit" data-toggle="pill" class="nav-link"><i class="icon-note"></i> <span class="hidden-xs">Edit</span></a>
+                <a href="javascript:void();" data-target="#edit" data-toggle="pill" class="nav-link"><i class="icon-note"></i> <span class="hidden-xs">My Payments</span></a>
             </li>
         </ul>
         <div class="tab-content p-3">
@@ -113,11 +122,11 @@
                     <div class="col-md-6">
                         <h6>About</h6>
                         <p>
-                            Web Designer, UI/UX Engineer
+                            Teacher
                         </p>
                         <h6>Hobbies</h6>
                         <p>
-                            Indie music, skiing and hiking. I love the great outdoors.
+                            Reading & Singing. I love the great outdoors.
                         </p>
                     </div>
                     <div class="col-md-6">

@@ -29,10 +29,13 @@ Route::get('/health-ministry', function () {
 });
 
 Route::get('/health-ministry/patients', function () {
-    return view('dashboard.health-care.view_patient_details');
+    return view('dashboard.health-care.patients.view_patient_details');
 });
 
+Route::get('/health-ministry/staff', function () {
+    return view('dashboard.health-care.staff.view_staff_details');
+});
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index')->name('hom
