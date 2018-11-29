@@ -94,31 +94,6 @@ General End users
 * Medical location and emergency outsource
 * USSD on medical Services operation
 
-
-
-
-General End-User Rec
- 
- #### BionicHealthERP Components & Functionalities
-
-**BionicHealthERP** is made up of major health Organizations
-
-Authentication for the Health-Care
-Payroll Management system amongst 
-Patients and Health-care services records
-Staff Records and Employent details
-Staff Attendance Information
-Health Drugs Disensary
-Drug Inventory Availablilty and purchase in the country
-Health-Care Service (Accomodates all hospital services)
-Health Facilities Accomodation
-Roles and Priviledges for the Health-Care/ NHIS/ Health Ministries
-Health events Notification
-Blood Bank resource centers
-Health Care Inventory
-Authorized Health Insurance Schemes Dashboard
-Health Management Organization. 
-General End-User website for information, Heath-care centers and drug purchase and delivery.
  
 ### Challenges we ran into
 Building a data-set system is a huge one and the challenge was trying to structure the system to our propose features avoiding data collation and polymorphic request issues. So we got to study more on data structures and algorithms which are the basic for any sustainable system. It was the most difficult at first but we pull through to understand that the codility and code-convention structure of a platform matters in system architecture and not just jumping into any codes/language for solutions.
