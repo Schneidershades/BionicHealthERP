@@ -134,7 +134,7 @@
     </li>
     <li class="nav-item">
       <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" data-toggle="dropdown" href="#">
-        <span class="user-profile"><img src="{{ URL::to('assets/images/avatars/avatar-17.png')}}" class="img-circle" alt="user avatar"></span>
+        <span class="user-profile"><img src="{{ URL::to('assets/images/avatars/avatar-4.png')}}" class="img-circle" alt="user avatar"></span>
       </a>
       <ul class="dropdown-menu dropdown-menu-right animated fadeIn">
        <li class="dropdown-item user-details">

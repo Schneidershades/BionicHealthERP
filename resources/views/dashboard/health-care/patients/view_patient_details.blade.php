@@ -140,9 +140,9 @@
                         <a href="javascript:void();" class="badge badge-dark badge-pill">bootstrap</a>
                         <a href="javascript:void();" class="badge badge-dark badge-pill">responsive-design</a>
                         <hr>
-                        <span class="badge badge-primary"><i class="fa fa-user"></i> 900 Followers</span>
-                        <span class="badge badge-success"><i class="fa fa-cog"></i> 43 Forks</span>
-                        <span class="badge badge-danger"><i class="fa fa-eye"></i> 245 Views</span>
+                        <span class="badge badge-primary"><i class="fa fa-user"></i> O+ Blood Group</span>
+                        <span class="badge badge-success"><i class="fa fa-cog"></i> 23 Width</span>
+                        <span class="badge badge-danger"><i class="fa fa-eye"></i> 89 height</span>
                     </div>
                     <div class="col-md-12">
                         <h5 class="mt-2 mb-3"><span class="fa fa-clock-o ion-clock float-right"></span> Recent Activity</h5>

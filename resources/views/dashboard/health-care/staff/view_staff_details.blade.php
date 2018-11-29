@@ -35,8 +35,8 @@
            <div class="user-box">
             <img src="{{URL::to('assets/images/avatars/avatar-1.png')}}" alt="user avatar"/>
           </div>
-          <h5 class="mb-1 text-white">Maria Okonjo</h5>
-          <h6 class="text-light">Patient</h6>
+          <h5 class="mb-1 text-white">John Musama</h5>
+          <h6 class="text-light">Doctor</h6>
          </div>
           <div class="card-body">
             <ul class="list-group shadow-none">
@@ -54,7 +54,7 @@
                 <i class="fa fa-envelope"></i>
               </div>
               <div class="list-details">
-                <span>markokonjo@gmail.com</span>
+                <span>musamaj@gmail.com</span>
                 <small>Email Address</small>
               </div>
             </li>
@@ -72,23 +72,23 @@
                 <i class="fa fa-book"></i>
               </div>
               <div class="list-details">
-                <span>NHIS Plan</span>
-                <small>YES</small>
+                <span>Specialty</span>
+                <small>Pregnancy/Gynecology</small>
               </div>
             </li>
             </ul>
             <div class="row text-center mt-4">
               <div class="col p-2">
-               <h4 class="mb-1 line-height-5">14,000/M</h4>
-                <small class="mb-0 font-weight-bold">NHIS</small>
+               <h4 class="mb-1 line-height-5">4</h4>
+                <small class="mb-0 font-weight-bold">Health Care Station</small>
                </div>
                 <div class="col p-2">
-                  <h4 class="mb-1 line-height-5">4</h4>
-                 <small class="mb-0 font-weight-bold">Family</small>
+                  <h4 class="mb-1 line-height-5">41</h4>
+                 <small class="mb-0 font-weight-bold">Health Care Assignment</small>
                 </div>
                 <div class="col p-2">
-                 <h4 class="mb-1 line-height-5">239</h4>
-                 <small class="mb-0 font-weight-bold">Health Engagement</small>
+                 <h4 class="mb-1 line-height-5">Total Appointments</h4>
+                 <small class="mb-0 font-weight-bold">490</small>
                 </div>
              </div>
            </div>
@@ -109,10 +109,10 @@
                 <a href="javascript:void();" data-target="#profile" data-toggle="pill" class="nav-link active"><i class="icon-user"></i> <span class="hidden-xs">Profile</span></a>
             </li>
             <li class="nav-item">
-                <a href="javascript:void();" data-target="#messages" data-toggle="pill" class="nav-link"><i class="icon-envelope-open"></i> <span class="hidden-xs">Diagnose/ Test</span></a>
+                <a href="javascript:void();" data-target="#messages" data-toggle="pill" class="nav-link"><i class="icon-envelope-open"></i> <span class="hidden-xs">My Diagnose/ Test Operations</span></a>
             </li>
             <li class="nav-item">
-                <a href="javascript:void();" data-target="#edit" data-toggle="pill" class="nav-link"><i class="icon-note"></i> <span class="hidden-xs">My Payments</span></a>
+                <a href="javascript:void();" data-target="#edit" data-toggle="pill" class="nav-link"><i class="icon-note"></i> <span class="hidden-xs">My Payroll</span></a>
             </li>
         </ul>
         <div class="tab-content p-3">
@@ -120,29 +120,27 @@
                 <h5 class="mb-3">User Profile</h5>
                 <div class="row">
                     <div class="col-md-6">
-                        <h6>About</h6>
+                        <h6>Specialties</h6>
                         <p>
-                            Teacher
+                            Obstetrics & Gynecology<
                         </p>
-                        <h6>Hobbies</h6>
+                        <!-- <h6>Hobbies</h6>
                         <p>
                             Reading & Singing. I love the great outdoors.
-                        </p>
+                        </p> -->
                     </div>
                     <div class="col-md-6">
-                        <h6>Recent badges</h6>
-                        <a href="javascript:void();" class="badge badge-dark badge-pill">html5</a>
-                        <a href="javascript:void();" class="badge badge-dark badge-pill">react</a>
-                        <a href="javascript:void();" class="badge badge-dark badge-pill">codeply</a>
-                        <a href="javascript:void();" class="badge badge-dark badge-pill">angularjs</a>
-                        <a href="javascript:void();" class="badge badge-dark badge-pill">css3</a>
-                        <a href="javascript:void();" class="badge badge-dark badge-pill">jquery</a>
-                        <a href="javascript:void();" class="badge badge-dark badge-pill">bootstrap</a>
-                        <a href="javascript:void();" class="badge badge-dark badge-pill">responsive-design</a>
+                        <h6>Interest</h6>
+                        <a href="javascript:void();" class="badge badge-dark badge-pill">Obstetrics & Gynecology</a>
+                        <a href="javascript:void();" class="badge badge-dark badge-pill">infertility</a>
+                        <a href="javascript:void();" class="badge badge-dark badge-pill">multiple births</a>
+                        <a href="javascript:void();" class="badge badge-dark badge-pill">triplets</a>
+                        <a href="javascript:void();" class="badge badge-dark badge-pill">drawing</a>
+                        <a href="javascript:void();" class="badge badge-dark badge-pill">painting</a>
                         <hr>
-                        <span class="badge badge-primary"><i class="fa fa-user"></i> 900 Followers</span>
+                        <!-- <span class="badge badge-primary"><i class="fa fa-user"></i> 900 Followers</span>
                         <span class="badge badge-success"><i class="fa fa-cog"></i> 43 Forks</span>
-                        <span class="badge badge-danger"><i class="fa fa-eye"></i> 245 Views</span>
+                        <span class="badge badge-danger"><i class="fa fa-eye"></i> 245 Views</span> -->
                     </div>
                     <div class="col-md-12">
                         <h5 class="mt-2 mb-3"><span class="fa fa-clock-o ion-clock float-right"></span> Recent Activity</h5>
@@ -150,27 +148,27 @@
                             <tbody>                                    
                                 <tr>
                                     <td>
-                                        <strong>Abby</strong> joined ACME Project Team in <strong>`Collaboration`</strong>
+                                        <strong>Appointments</strong>Maryam's pregnancy test   <strong>`Completed`</strong>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <strong>Gary</strong> deleted My Board1 in <strong>`Discussions`</strong>
+                                        <strong>Appointment</strong> Engr Chike<strong>`Cancelled`</strong>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <strong>Kensington</strong> deleted MyBoard3 in <strong>`Discussions`</strong>
+                                        <strong>Appoinmeent</strong> Miss Maryam's Ante-natal <strong>`pending`</strong>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <strong>John</strong> deleted My Board1 in <strong>`Discussions`</strong>
+                                        <strong>Prescription</strong> Mr Ogonna's drugs precription endorsment <strong>`Completed`</strong>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <strong>Skell</strong> deleted his post Look at Why this is.. in <strong>`Discussions`</strong>
+                                        <strong>Appointment</strong> Miss Chinoye Ante-natal <strong>`Completed`</strong>
                                     </td>
                                 </tr>
                             </tbody>

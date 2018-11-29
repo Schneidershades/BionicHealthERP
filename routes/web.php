@@ -38,4 +38,4 @@ Route::get('/health-ministry/staff', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('hom
+Route::get('/home', 'HomeController@index')->name('home');

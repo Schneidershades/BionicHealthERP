@@ -32,16 +32,16 @@
               </div> -->
 
               <div class="form-group" data-select2-id="18">
-                 <label for="exampleInputPassword" class="sr-only">Health Institution name</label>
+                 <label >Health Institution name</label>
                 <select class="form-control single-select">
-                    <option>India</option>
-                    <option>England</option>
-                    <option>America</option>
-                    <option>China</option>
-                    <option>Australiya</option>
-                    <option>Newzeland</option>
-                    <option>Dubai</option>
-                    <option>United Kingdom</option>
+                    <option>Kwarati Dispensary</option>
+                    <option>Natural Health Care Herbal Hospital</option>
+                    <option>Stannes Anglican Hospital</option>
+                    <option>Joy Clinic And Maternity</option>
+                    <option>Pwalamoliye Primary Health Center</option>
+                    <option>Jiga Birni Health Facility</option>
+                    <option>Dlri Tumba</option>
+                    <option>Zenith Hospital And Maternity</option>
                 </select>
               </div>
 
