@@ -94,11 +94,35 @@ General End users
 * Medical location and emergency outsource
 * USSD on medical Services operation
 
- 
-### Challenges we ran into
+
+## Existing Systems
+Based there are a couple of system which have been available for a while in the tech industry both home and abroad. But what would make the **BionicHealthERP** stand out are as follows:
+
+#### Open source platform: Most applications are paid for and are made available for health organizations to remit monthly or daily funds. **BionicHealthERP** is here to make all these activities.
+
+#### Open Chain Data for investment: Even as most concentration has been given to the fintech organization not just because of the fact that they made profit but an open data chain was made visible to investors to leverage in the Nigerian market. It is reported in **The Nigerian Startup Funding Report** that 
+
+[![N|Solid](https://imgur.com/Q8bp0Vn.png)](#)
+
+>investments made in the third quarter of 2018.
+>Nigerian Startups got $34,710,957 of which 60% where handed over to fintech industry
+>The Health startup featured 4 startups in that quarter of which one got seed-funding while others got grants
+
+[![N|Solid](https://imgur.com/Z0Pe9Nd.png)](#)
+
+
+The ability to provide an open chain of data structures to investors would create opportunities for investments. Also startups can build platform ideas that would create more convincing power and wide range fundings which can in double fold exceed the fintech industry especially when it comes to handling the matters of health and life. **BionicHealthERP** will provide it all.
+
+
+#### More Updates to flexible solutions: Most existing systems despite robust are unable to solve most specific problem of individual organization maybe due to data structure implementation. **BionicHealthERP** is flexible enough to run system in a polymorphic structure as the organization fits accomodating limitless services
+
+
+
+## Challenges we ran into
 Building a data-set system is a huge one and the challenge was trying to structure the system to our propose features avoiding data collation and polymorphic request issues. So we got to study more on data structures and algorithms which are the basic for any sustainable system. It was the most difficult at first but we pull through to understand that the codility and code-convention structure of a platform matters in system architecture and not just jumping into any codes/language for solutions.
 
-### Period of development
+
+## Period of development
 The period of completion of the **BionicHealthERP** would take about 57days to implement and test before launch.
 
 
