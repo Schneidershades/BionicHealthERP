@@ -28,6 +28,10 @@ Route::get('/health-ministry', function () {
     return view('dashboard.health-care.home');
 });
 
+Route::get('/scheme', function () {
+    return view('dashboard.scheme.home');
+});
+
 Route::get('/health-ministry/patients', function () {
     return view('dashboard.health-care.patients.view_patient_details');
 });

@@ -130,19 +130,19 @@
                         </p>
                     </div>
                     <div class="col-md-6">
-                        <h6>Recent badges</h6>
-                        <a href="javascript:void();" class="badge badge-dark badge-pill">html5</a>
+                        <h6>Attributes</h6>
+                        <!-- <a href="javascript:void();" class="badge badge-dark badge-pill">non-alcoholic</a>
                         <a href="javascript:void();" class="badge badge-dark badge-pill">react</a>
                         <a href="javascript:void();" class="badge badge-dark badge-pill">codeply</a>
                         <a href="javascript:void();" class="badge badge-dark badge-pill">angularjs</a>
                         <a href="javascript:void();" class="badge badge-dark badge-pill">css3</a>
                         <a href="javascript:void();" class="badge badge-dark badge-pill">jquery</a>
                         <a href="javascript:void();" class="badge badge-dark badge-pill">bootstrap</a>
-                        <a href="javascript:void();" class="badge badge-dark badge-pill">responsive-design</a>
+                        <a href="javascript:void();" class="badge badge-dark badge-pill">responsive-design</a> -->
                         <hr>
-                        <span class="badge badge-primary"><i class="fa fa-user"></i> O+ Blood Group</span>
-                        <span class="badge badge-success"><i class="fa fa-cog"></i> 23 Width</span>
-                        <span class="badge badge-danger"><i class="fa fa-eye"></i> 89 height</span>
+                        <span class="badge badge-primary"> O+ Blood Group</span>
+                        <span class="badge badge-success"> 23 Width</span>
+                        <span class="badge badge-danger">89 height</span>
                     </div>
                     <div class="col-md-12">
                         <h5 class="mt-2 mb-3"><span class="fa fa-clock-o ion-clock float-right"></span> Recent Activity</h5>
@@ -150,27 +150,17 @@
                             <tbody>                                    
                                 <tr>
                                     <td>
-                                        <strong>Abby</strong> joined ACME Project Team in <strong>`Collaboration`</strong>
+                                        <strong>Appointment</strong> ante-natal care with <strong>`Dr John Musama`</strong>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <strong>Gary</strong> deleted My Board1 in <strong>`Discussions`</strong>
+                                        <strong>Purchase</strong> Purchased Septrin <strong>`Pharmacy Dept`</strong>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <strong>Kensington</strong> deleted MyBoard3 in <strong>`Discussions`</strong>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <strong>John</strong> deleted My Board1 in <strong>`Discussions`</strong>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <strong>Skell</strong> deleted his post Look at Why this is.. in <strong>`Discussions`</strong>
+                                        <strong>Emergency</strong> Ambulance Emergencies <strong>`Emergency Dept`</strong>
                                     </td>
                                 </tr>
                             </tbody>

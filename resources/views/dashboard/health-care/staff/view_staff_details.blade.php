@@ -33,7 +33,7 @@
         <div class="card">
           <div class="card-body text-center bg-primary rounded-top">
            <div class="user-box">
-            <img src="{{URL::to('assets/images/avatars/avatar-1.png')}}" alt="user avatar"/>
+            <img src="{{URL::to('assets/images/avatars/avatar-17.png')}}" alt="user avatar"/>
           </div>
           <h5 class="mb-1 text-white">John Musama</h5>
           <h6 class="text-light">Doctor</h6>
@@ -87,8 +87,8 @@
                  <small class="mb-0 font-weight-bold">Health Care Assignment</small>
                 </div>
                 <div class="col p-2">
-                 <h4 class="mb-1 line-height-5">Total Appointments</h4>
-                 <small class="mb-0 font-weight-bold">490</small>
+                 <h4 class="mb-1 line-height-5">490</h4>
+                 <small class="mb-0 font-weight-bold">Total Appointments</small>
                 </div>
              </div>
            </div>

@@ -1,8 +1,11 @@
-# [Bionic Health](https://www.creative-tim.com/product/argon-dashboard)
+# BionicHealthERP (Prototype)
 
-![Product Gif](https://s3.amazonaws.com/creativetim_bucket/products/96/original/opt_ad_thumbnail.jpg)
+[![N|Solid](https://imgur.com/nAsbleF.png)](#)
 
-Bionic Health ERP is a web based Open Source Entreprise Resource planning systems accomodates Health-care managament data information on heath-care activities for government and all Health Organizations
+**BionicHealthERP** is a web based Open Source Entreprise Resource planning systems accomodates Health-care managament data information on heath-care activities for government and all Health Organizations
+
+[![N|Solid](https://imgur.com/3Q4NEBz.png)](#)
+
 
 #### Users of the system
 
@@ -10,132 +13,36 @@ BionicHealthERP accomodates.
 
 * Unlimited Health-care Centers
 * Unlimited Health Insurance Scheme
-* Unlimited General End Users 
+* General End Users 
 
 #### Purpose of the Solution
 
-BionicHealthERP main purpose is to create a huge dataset that is satisfactory enough for detailed data documentation within the community, state and country.
+* **BionicHealthERP**'s main purpose is to create a huge dataset that is satisfactory enough for detailed data documentation within the community, state and country by building the platform for most health activities in the sector
+* Tracking health facilities to assist prompt and supervisory activities in the sector
+* Drug inventory analysis in the country and prompt search for drugs available in the country by end-users
+* A system that not only provides platforms for the health sector but also for details system reporting and accessability to the ministry of health/ Health Schemes keeping An up-to-date information management system that captures the estimated number of patients to health facilities.
+* The Insurance Scheme lacks a technology-based system for the database of all the enrollees, to monitor the insurance services pertaining to health
+A system needs to be developed to address the absenteeism of staff from workstations in the Education and Health sectors
+* Event meeting setup any where in the country by either the healthcare sector or government
 
+# BionicHealthERP (Dependencies)
 
+The system depends solely on the Grid-Nigeria api as it has over **44,000** health-care centers which can first be used as an avenue for system validation and verification on the health-care account made on the system.
 
-## Demo
+[![N|Solid](https://imgur.com/50G1vup.png)](#)
 
-- [Index Page](https://demos.creative-tim.com/argon-dashboard)
-- [Dashboard](https://demos.creative-tim.com/argon-dashboard/index.html)
-- [Profile Page](https://demos.creative-tim.com/argon-dashboard/examples/profile.html)
-- [Login Page](https://demos.creative-tim.com/argon-dashboard/examples/login.html)
-- [Register Page](https://demos.creative-tim.com/argon-dashboard/examples/register.html)
-- [Tables](https://demos.creative-tim.com/argon-dashboard/examples/tables.html)
-- [Maps](https://demos.creative-tim.com/argon-dashboard/examples/maps.html)
-- [Documentation](https://demos.creative-tim.com/argon-dashboard/docs/getting-started/overview.html)
+The option value was pulled from https://api.grid-nigeria.org/health-facilities/ 
 
-[View More](https://demos.creative-tim.com/argon-dashboard)
+if the hospital is unavailable other method would be used to add the health-care center not available to the api but after a thorough check has been done to worth been in the data
 
-## Download and Installation
+# BionicHealthERP (Expansaion)
 
-- [Download from Github](https://github.com/creativetimofficial/argon-dashboard/archive/master.zip)
-- [Download from Creative Tim](https://www.creative-tim.com/product/argon-dashboard)
+The system has the ability to provide **104 datasets** which can be rendered back to the https://api.grid-nigeria.org/health-facilities/ at the moment of each platform request to create a wharehouse for adequate and available data resource
 
-
-- Install with Npm: `npm i @creative-tim-official/argon-dashboard-free`
-
-- Install with Yarn: `yarn add @creative-tim-official/argon-dashboard-free`
-
-- Install with Composer: `composer create-project creativetimofficial/argon-dashboard-free`
-
-- Clone from Github: `git clone https://github.com/creativetimofficial/argon-dashboard.git`
-
-
-## Documentation
-
-The documentation for the Argon Dashboard is hosted at our [website](https://demos.creative-tim.com/argon-dashboard/docs/getting-started/overview.html).
-
-## File Structure
-
-Within the download you'll find the following directories and files:
-
-```
-argon/
-├── CHANGELOG.md
-├── LICENSE.md
-├── README.md
-├── assets/
-  ├── css/
-  │   ├── argon.css
-  │   ├── argon.css.map
-  │   ├── argon.min.css
-  │   ├── argon.min.css.map
-  └── img/
-  │   ├── argon/
-  │   ├── brand/
-  │   ├── icons/
-  │   ├── ill/
-  └── js/
-  │   ├── argon.js
-  │   └── argon.min.js
-  └── scss/
-  │   ├── bootstrap/
-  │   ├── core/
-  │   ├── custom/
-  │   ├── argon.scss
-  └── vendor/
-      ├── bootstrap/
-      ├── jquery/
-      ├── ...
-
-```
-
-## Browser Support
-
-At present, we officially aim to support the last two versions of the following browsers:
-
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
-
-## Resources
-
-- Demo: <https://demos.creative-tim.com/argon-dashboard>
-- Download: <https://www.creative-tim.com/product/argon-dashboard>
-- Documentation: <https://demos.creative-tim.com/argon-dashboard/docs/getting-started/overview.html>
-- License Agreement: <https://www.creative-tim.com/license>
-- Support: <https://www.creative-tim.com/contact-us>
-- Issues: [Github Issues Page](https://github.com/creativetimofficial/argon-dashboard/issues)
-
-## Reporting Issues
-
-We use GitHub Issues as the official bug tracker for the Argon Dashboard. Here are some advices for our users that want to report an issue:
-
-1. Make sure that you are using the latest version of the Argon Dashboard. Check the CHANGELOG from your copy on our [website](https://www.creative-tim.com).
-2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
-3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
-
-## Technical Support or Questions
-
-If you have questions or need help integrating the product please [contact us](https://www.creative-tim.com/contact-us) instead of opening an issue.
-
-## Licensing
-
-- Copyright &copy; 2018 Creative Tim (https://www.creative-tim.com)
-
-- Licensed under MIT (https://github.com/creativetimofficial/argon-dashboard/blob/master/LICENSE.md)
-
-## Useful Links
-
-- [More products](https://www.creative-tim.com/bootstrap-themes) from Creative Tim
-- [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
-- [Freebies](https://www.creative-tim.com/bootstrap-themes/free) from Creative Tim
-- [Affiliate Program](https://www.creative-tim.com/affiliates/new) (earn money)
-
-## Social Media
-
-- Twitter: <https://twitter.com/CreativeTim>
-- Facebook: <https://www.facebook.com/CreativeTim>
-- Dribbble: <https://dribbble.com/creativetim>
-- Google+: <https://plus.google.com/+CreativetimPage>
-- Instagram: <https://www.instagram.com/CreativeTimOfficial>
 
 #### System Technology 
 
-BionicHealthERP data system is built in ideology of data structures and algorithims accepting data seamlessy no matter the request and stage bandwidth.
+**BionicHealthERP** data system is built in ideology of data structures and algorithims accepting data seamlessy no matter the request and stage bandwidth.
 
 It was built using:
 
@@ -148,15 +55,14 @@ It was built using:
 
 #### System Updates & Upgrades 
 
-BionicHealthERP systems are monitored to provide stress-free system to the party end. You are just made to provide your data to the system and the developers woult carry out the rest
+Taking **BionicHealthERP** systems as a full-time activity we monitor to provide stress-free system to the end-user as upgrades and updates are made by developers. You are just made to provide your data to the system and the developers would carry out the rest activities. The **BionicHealthERP** has a good coding condition and is well sustainable and managable for all end-user parties
 
 
-
-#### BionicHealthERP Components & Functionalities of the 
+#### BionicHealthERP Components & Functionalities
 
 Bionic Health ERP is made up of major health Organizations
 
-Authentication for the Health-Care/ 
+Authentication for the Health-Care
 Payroll Management system
 Patients and Health-care services records
 Staff Records and Employent details
@@ -168,37 +74,35 @@ Health Facilities Accomodation
 Roles and Priviledges for the Health-Care/ NHIS/ Health Ministries
 Health events Notification
 Blood Bank Search
-Health Care Inventory
+Health Care Inventory (Drugs etc)
 Health Insurance Schemes
-Health Ministries/ 
-General End-User Rec 
+Health Ministries
+General End-User Rec
+ 
+ #### BionicHealthERP Components & Functionalities
 
+**BionicHealthERP** is made up of major health Organizations
 
-#### Example Pages
+Authentication for the Health-Care
+Payroll Management system amongst 
+Patients and Health-care services records
+Staff Records and Employent details
+Staff Attendance Information
+Health Drugs Disensary
+Drug Inventory Availablilty and purchase in the country
+Health-Care Service (Accomodates all hospital services)
+Health Facilities Accomodation
+Roles and Priviledges for the Health-Care/ NHIS/ Health Ministries
+Health events Notification
+Blood Bank resource centers
+Health Care Inventory
+Authorized Health Insurance Schemes Dashboard
+Health Management Organization. 
+General End-User website for information, Heath-care centers and drug purchase and delivery.
+ 
+## Challenges we ran into
+Building a data-set system is a huge one and the challenge was trying to structure the system to our propose features avoiding data collation and polymorphic request issues. So we got to study more on data structures and algorithms which are the basic for any sustainable system. It was the most difficult at first but we pull through to understand that the codility and code-convention structure of a platform matters in system architecture and not just jumping into codes for solutions.
 
-If you want to get inspiration or just show something directly to your clients, you can jump start your development with our pre-built example pages. You will be able to quickly set up the basic structure for your web project.
+## Period of development
+The period of completion of the **BionicHealthERP** would take about 57days to implement and test before launch.
 
-## Table of Contents
-
-* [Demo](#demo)
-* [Quick Start](#quick-start)
-* [Documentation](#documentation)
-* [File Structure](#file-structure)
-* [Browser Support](#browser-support)
-* [Resources](#resources)
-* [Reporting Issues](#reporting-issues)
-* [Technical Support or Questions](#technical-support-or-questions)
-* [Licensing](#licensing)
-* [Useful Links](#useful-links)
-
-## Versions
-
-We are coding Argon Dashboard for this frameworks also. Chek'em out:
-
-### Coming soon
-
-- Vue.js
-- Angular
-- React
-- Sketch
-- Photoshop
