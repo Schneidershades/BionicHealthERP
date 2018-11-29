@@ -25,7 +25,7 @@ BionicHealthERP accomodates.
 A system needs to be developed to address the absenteeism of staff from workstations in the Education and Health sectors
 * Event meeting setup any where in the country by either the healthcare sector or government
 
-# BionicHealthERP (Dependencies)
+## BionicHealthERP (Dependencies)
 
 The system depends solely on the Grid-Nigeria api as it has over **44,000** health-care centers which can first be used as an avenue for system validation and verification on the health-care account made on the system.
 
@@ -35,48 +35,68 @@ The option value was pulled from https://api.grid-nigeria.org/health-facilities/
 
 if the hospital is unavailable other method would be used to add the health-care center not available to the api but after a thorough check has been done to worth been in the data
 
-# BionicHealthERP (Expansaion)
+## BionicHealthERP (Expansaion)
 
 The system has the ability to provide **104 datasets** which can be rendered back to the https://api.grid-nigeria.org/health-facilities/ at the moment of each platform request to create a wharehouse for adequate and available data resource
 
 
-#### System Technology 
 
-**BionicHealthERP** data system is built in ideology of data structures and algorithims accepting data seamlessy no matter the request and stage bandwidth.
+## System Updates & Upgrades 
 
-It was built using:
-
-* HTML
-* CSS
-* JAVASCRIPT
-* PHP 7.2
-* MySQL
+Taking **BionicHealthERP** systems as a full-time activity, we monitor to provide stress-free system to the end-user as upgrades and updates are made by developers. You are just to provide your data to the system and the developers would carry out the rest activities. The **BionicHealthERP** has a good coding condition and is well sustainable and managable for all end-user parties.
 
 
-#### System Updates & Upgrades 
-
-Taking **BionicHealthERP** systems as a full-time activity we monitor to provide stress-free system to the end-user as upgrades and updates are made by developers. You are just made to provide your data to the system and the developers would carry out the rest activities. The **BionicHealthERP** has a good coding condition and is well sustainable and managable for all end-user parties
-
-
-#### BionicHealthERP Components & Functionalities
+## BionicHealthERP Components & Functionalities
 
 Bionic Health ERP is made up of major health Organizations
 
+#### Health-care Centers
 Authentication for the Health-Care
 Payroll Management system
 Patients and Health-care services records
 Staff Records and Employent details
 Staff Attendance Information
-Health Drugs Disensary
+Health Drugs Disensary analysis
 Drug Inventory Availablilty and purchase in the country
 Health-Care Service (Accomodates all hospital services)
 Health Facilities Accomodation
 Roles and Priviledges for the Health-Care/ NHIS/ Health Ministries
 Health events Notification
-Blood Bank Search
+Blood Bank Resource 
 Health Care Inventory (Drugs etc)
-Health Insurance Schemes
-Health Ministries
+
+[![N|Solid](https://imgur.com/HfCS4Mh.png)](#)
+Doctor's Profile
+
+[![N|Solid](https://imgur.com/xCuakbg.png)](#)
+Patient's Profile 
+
+#### Health Insurance Schemes/ Health Ministries
+* Health care Analysis
+* Vaccine Tracking
+* Dispensary Analysis
+* Health Management Organization control
+* Funds allocations
+* Foreign aid allocation analysis
+* Licences actions
+* Manage all Medical Practicionals in the country
+* Manage All Health-Care Centers in the country
+* Create and Manage all Health Events
+* Broadcast notification to centers and departments necessary
+* Analyse and manage all health-care services provided by all health care centers
+
+[![N|Solid](https://imgur.com/tCl5Xmp.png)](#)
+
+
+#### Health Insurance Schemes/ Health Ministries
+General End users
+* Drug Order and Delivery
+* Medical location and emergency outsource
+* USSD on medical Services operation
+
+
+
+
 General End-User Rec
  
  #### BionicHealthERP Components & Functionalities
@@ -100,9 +120,10 @@ Authorized Health Insurance Schemes Dashboard
 Health Management Organization. 
 General End-User website for information, Heath-care centers and drug purchase and delivery.
  
-## Challenges we ran into
-Building a data-set system is a huge one and the challenge was trying to structure the system to our propose features avoiding data collation and polymorphic request issues. So we got to study more on data structures and algorithms which are the basic for any sustainable system. It was the most difficult at first but we pull through to understand that the codility and code-convention structure of a platform matters in system architecture and not just jumping into codes for solutions.
+### Challenges we ran into
+Building a data-set system is a huge one and the challenge was trying to structure the system to our propose features avoiding data collation and polymorphic request issues. So we got to study more on data structures and algorithms which are the basic for any sustainable system. It was the most difficult at first but we pull through to understand that the codility and code-convention structure of a platform matters in system architecture and not just jumping into any codes/language for solutions.
 
-## Period of development
+### Period of development
 The period of completion of the **BionicHealthERP** would take about 57days to implement and test before launch.
+
 
