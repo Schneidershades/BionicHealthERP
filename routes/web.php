@@ -16,9 +16,23 @@ Route::get('/', function () {
 });
 
 
-Route::get('/dashboard', function () {
+Route::get('/health-care', function () {
     return view('dashboard.health-care.home');
 });
+
+Route::get('/hmo', function () {
+    return view('dashboard.hmo.home');
+});
+
+Route::get('/health-ministry', function () {
+    return view('dashboard.health-care.home');
+});
+
+Route::get('/health-ministry/patients', function () {
+    return view('dashboard.health-care.view_patient_details');
+});
+
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

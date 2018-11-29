@@ -124,7 +124,7 @@
       </div>
     </li>
     <li class="nav-item language">
-      <a class="nav-link dropdown-toggle dropdown-toggle-nocaret waves-effect" data-toggle="dropdown" href="#"><i class="flag-icon flag-icon-gb"></i></a>
+      <a class="nav-link dropdown-toggle dropdown-toggle-nocaret waves-effect" data-toggle="dropdown" href="#"><i class="flag-icon flag-icon-ng"></i></a>
       <ul class="dropdown-menu dropdown-menu-right animated fadeIn">
           <li class="dropdown-item"> <i class="flag-icon flag-icon-gb mr-2"></i> English</li>
           <li class="dropdown-item"> <i class="flag-icon flag-icon-fr mr-2"></i> French</li>

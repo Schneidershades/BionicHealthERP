@@ -368,10 +368,10 @@ jQuery('#dashboard-map').vectorMap(
       var myChart = new Chart(ctx, {
         type: 'line',
         data: {
-          labels: [1, 2, 3, 4, 5, 6, 7, 8],
+          labels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
           datasets: [{
-            label: 'Apple',
-            data: [0, 30, 60, 25, 60, 25, 50, 0],
+            label: 'Incoming Dispensery Stock',
+            data: [20, 30, 20, 25, 60, 25, 50, 0, 33, 10, 10, 10],
             pointBorderWidth: 2,
             pointBackgroundColor: 'transparent',
 			pointHoverBackgroundColor: gradientStroke1,
@@ -379,8 +379,8 @@ jQuery('#dashboard-map').vectorMap(
             borderColor: gradientStroke1,
             borderWidth: 2
           }, {
-            label: 'Samsung',
-            data: [0, 60, 25, 80, 35, 75, 30, 0],
+            label: 'Outgoing Dispensery Stock',
+            data: [40, 60, 75, 50, 45, 75, 30, 40, 60, 20, 25, 30],
             pointBorderWidth: 2,
             pointBackgroundColor: 'transparent',
 			pointHoverBackgroundColor: gradientStroke2,

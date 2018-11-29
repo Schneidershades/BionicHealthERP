@@ -28,9 +28,9 @@
           <i class="icon-home"></i><span>Health-care Stats</span><i class="fa fa-angle-left pull-right"></i>
         </a>
         <ul class="sidebar-submenu">
-          <li><a href=""><i class="fa fa-long-arrow-right"></i> Patients </a></li>
-          <li><a href=""><i class="fa fa-long-arrow-right"></i> Records</a></li>
-          <li><a href=""><i class="fa fa-long-arrow-right"></i> Dispensery</a></li>
+          <li><a href="patient.html"><i class="fa fa-long-arrow-right"></i> Patients </a></li>
+          <li><a href="record.html"><i class="fa fa-long-arrow-right"></i> Records</a></li>
+          <li><a href="Dispensery.html"><i class="fa fa-long-arrow-right"></i> Dispensery</a></li>
         </ul>
       </li>
       <li>
@@ -39,8 +39,8 @@
 		    <i class="fa fa-angle-left pull-right"></i>
         </a>
         <ul class="sidebar-submenu">
-      		  <li><a href=""><i class="fa fa-long-arrow-right"></i> Add New Patients</a></li>
-      		  <li><a href=""><i class="fa fa-long-arrow-right"></i> View patients</a></li>
+      		  <li><a href="new.html"><i class="fa fa-long-arrow-right"></i> Add New Patients</a></li>
+      		  <li><a href="allpatient.html"><i class="fa fa-long-arrow-right"></i> View patients</a></li>
         </ul>
       </li>
 	  
@@ -50,16 +50,16 @@
           <i class="fa fa-angle-left pull-right"></i>
         </a>
         <ul class="sidebar-submenu">
-          <li><a href=""><i class="fa fa-long-arrow-right"></i> All Staff</a></li>
-    		  <li><a href=""><i class="fa fa-long-arrow-right"></i> Add new staff</a></li>
-    		  <li><a href=""><i class="fa fa-long-arrow-right"></i> Attendance</a></li>
+          <li><a href="staffall.html"><i class="fa fa-long-arrow-right"></i> All Staff</a></li>
+    		  <li><a href="newstaff.html"><i class="fa fa-long-arrow-right"></i> Add new staff</a></li>
+    		  <li><a href="attendance.html"><i class="fa fa-long-arrow-right"></i> Attendance</a></li>
         </ul>
       </li>
-	  <li>
+	  <!-- <li>
         <a href="widgets.html" class="waves-effect"><i class="icon-cup"></i><span>Widgets</span>
           <small class="badge float-right badge-danger">New</small>
         </a>
-      </li>
+      </li> -->
 	  <li>
         <a href="javaScript:void();" class="waves-effect">
           <i class="icon-lock-open"></i><span>Dispensery</span>

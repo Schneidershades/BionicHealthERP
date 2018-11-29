@@ -7,8 +7,8 @@
             <div class="card-body">
               <div class="media">
               <div class="media-body text-left">
-                <h4 class="text-white">38</h4>
-                <span class="text-white">Staff</span>
+                <h4 class="text-white">N4530</h4>
+                <span class="text-white">Revenue</span>
               </div>
         <div class="align-self-center"><span id="dash-chart-1"></span></div>
             </div>
@@ -20,8 +20,8 @@
             <div class="card-body">
               <div class="media">
               <div class="media-body text-left">
-                <h4 class="text-white">132</h4>
-                <span class="text-white">Patients</span>
+                <h4 class="text-white">2500</h4>
+                <span class="text-white">Total Orders</span>
               </div>
         <div class="align-self-center"><span id="dash-chart-2"></span></div>
             </div>
@@ -33,8 +33,8 @@
             <div class="card-body">
               <div class="media">
         <div class="media-body text-left">
-                <h4 class="text-white">1238</h4>
-                <span class="text-white">Diagnosis</span>
+                <h4 class="text-white">7850</h4>
+                <span class="text-white">Comments</span>
               </div>
                <div class="align-self-center"><span id="dash-chart-3"></span></div>
             </div>
@@ -46,66 +46,10 @@
             <div class="card-body">
               <div class="media">
               <div class="media-body text-left">
-                <h4 class="text-white">35240</h4>
-                <span class="text-white">Drug Inventory</span>
+                <h4 class="text-white">3524</h4>
+                <span class="text-white">Total Views</span>
               </div>
         <div class="align-self-center"><span id="dash-chart-4"></span></div>
-            </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-lg-6 col-xl-3">
-          <div class="card gradient-ohhappiness">
-            <div class="card-body">
-              <div class="media">
-              <div class="media-body text-left">
-                <h4 class="text-white">49</h4>
-                <span class="text-white">Admitted Paitient</span>
-              </div>
-              <div class="align-self-center"><span id="dash-chart-4"></span></div>
-            </div>
-            </div>
-          </div>
-        </div>
-
-         <div class="col-12 col-lg-6 col-xl-3">
-          <div class="card bg-dark">
-            <div class="card-body">
-              <div class="media">
-              <div class="media-body text-left">
-                <h4 class="text-white">139</h4>
-                <span class="text-white">Available Beds</span>
-              </div>
-              <div class="align-self-center"><span id="dash-chart-4"></span></div>
-            </div>
-            </div>
-          </div>
-        </div>
-
-         <div class="col-12 col-lg-6 col-xl-3">
-          <div class="card" style="background-color: purple">
-            <div class="card-body">
-              <div class="media">
-              <div class="media-body text-left">
-                <h4 class="text-white">20</h4>
-                <span class="text-white">Ready Operations Today</span>
-              </div>
-              <div class="align-self-center"><span id="dash-chart-4"></span></div>
-            </div>
-            </div>
-          </div>
-        </div>
-
-         <div class="col-12 col-lg-6 col-xl-3">
-          <div class="card" style="background-color: green">
-            <div class="card-body">
-              <div class="media">
-              <div class="media-body text-left">
-                <h4 class="text-white">20/33</h4>
-                <span class="text-white">Staff Attendance Today</span>
-              </div>
-              <div class="align-self-center"><span id="dash-chart-4"></span></div>
             </div>
             </div>
           </div>
@@ -116,7 +60,7 @@
         <div class="col-12 col-lg-12 col-xl-12">
           <div class="card">
        <div class="card-header">
-                Drug Inventory Sales 
+                Product Sales 
         <div class="card-action">
          <div class="dropdown">
          <a href="javascript:void();" class="dropdown-toggle dropdown-toggle-nocaret" data-toggle="dropdown">
@@ -141,25 +85,25 @@
             <div class="row row-group m-0">
             <div class="col-12 col-lg-6 col-xl-3">
               <div class="card-body text-center">
-              <h4 class="text-danger">N170,050</h4>
+              <h3 class="text-danger">N157</h3>
               <span>Today's Sales</span>
               </div>
             </div>
             <div class="col-12 col-lg-6 col-xl-3">
               <div class="card-body text-center">
-              <h4 class="text-warning">N1,423,400</h4>
+              <h3 class="text-warning">N1423</h3>
               <span>This Week Sales</span>
               </div>
             </div>
             <div class="col-12 col-lg-6 col-xl-3">
               <div class="card-body text-center">
-              <h4 class="text-success">N165,003,000</h4>
+              <h3 class="text-success">N6500</h3>
               <span>This Month Sales</span>
               </div>
             </div>
             <div class="col-12 col-lg-6 col-xl-3">
               <div class="card-body text-center">
-              <h4 class="text-info">N25,624,940</h4>
+              <h3 class="text-info">N45,624</h3>
               <span>This Year Sales</span>
               </div>
             </div>
@@ -173,7 +117,57 @@
         </div>
       </div><!--End Row-->
     
-    
+    <div class="row">
+      <div class="col-12 col-lg-6 col-xl-6">
+          <div class="card">
+       <div class="card-header">
+                Top Selling Categories
+        <div class="card-action">
+         <div class="dropdown">
+         <a href="javascript:void();" class="dropdown-toggle dropdown-toggle-nocaret" data-toggle="dropdown">
+          <i class="icon-options"></i>
+         </a>
+            <div class="dropdown-menu animated fadeIn dropdown-menu-right">
+            <a class="dropdown-item" href="javascript:void();">Action</a>
+            <a class="dropdown-item" href="javascript:void();">Another action</a>
+            <a class="dropdown-item" href="javascript:void();">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="javascript:void();">Separated link</a>
+           </div>
+          </div>
+                 </div>
+              </div>
+             <div class="card-body">
+                <canvas id="dash-chart-6"></canvas>
+            </div>
+          </div>
+        </div>
+    <div class="col-12 col-lg-6 col-xl-6">
+          <div class="card">
+       <div class="card-header">
+                Product Views
+        <div class="card-action">
+         <div class="dropdown">
+         <a href="javascript:void();" class="dropdown-toggle dropdown-toggle-nocaret" data-toggle="dropdown">
+          <i class="icon-options"></i>
+         </a>
+            <div class="dropdown-menu animated fadeIn dropdown-menu-right">
+            <a class="dropdown-item" href="javascript:void();">Action</a>
+            <a class="dropdown-item" href="javascript:void();">Another action</a>
+            <a class="dropdown-item" href="javascript:void();">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="javascript:void();">Separated link</a>
+           </div>
+          </div>
+                 </div>
+              </div>
+             <div class="card-body">
+                <canvas id="dash-chart-7"></canvas>
+            </div>
+          </div>
+        </div>
+    </div><!--End Row-->
+
       <div class="row">
         <div class="col-lg-12">
           <div class="card">
@@ -198,7 +192,7 @@
                  <table class="table align-items-center table-flush">
                   <thead>
                    <tr>
-                     <!-- <th>Photo</th> -->
+                     <th>Photo</th>
                      <th>Product</th>
                      <th>Amount</th>
                      <th>Status</th>
@@ -207,11 +201,11 @@
                    </tr>
                    </thead>
            <tr>
-                   <!--  <td>
+                    <td>
                       <img alt="Image placeholder" src="assets/images/products/1.png" class="product-img" alt="product img">
-                    </td> -->
-          <td>Carbimazole</td>
-                    <td>N1,840 </td>
+                    </td>
+          <td>Headphone GL</td>
+                    <td>N1,840 USD</td>
                     <td>
                       <span class="badge-dot">
                         <i class="bg-danger"></i> pending
@@ -225,11 +219,11 @@
           <td>10 July 2018</td>
                    </tr>
            <tr>
-                   <!--  <td>
+                    <td>
                      <img alt="Image placeholder" src="assets/images/products/2.png" class="product-img" alt="product img">
-                    </td> -->
-          <td>Gentamicin </td>
-                    <td>N1,520 </td>
+                    </td>
+          <td>Clasic Shoes</td>
+                    <td>N1,520 USD</td>
                     <td>
                       <span class="badge-dot">
                         <i class="bg-success"></i> completed
@@ -243,11 +237,11 @@
           <td>12 July 2018</td>
                    </tr>
            <tr>
-                    <!-- <td>
+                    <td>
                       <img alt="Image placeholder" src="assets/images/products/3.png" class="product-img" alt="product img">
-                    </td> -->
-                    <td>Atropine </td>
-                    <td>N1,620 </td>
+                    </td>
+                    <td>Hand Watch</td>
+                    <td>N1,620 USD</td>
                     <td>
                       <span class="badge-dot">
                         <i class="bg-warning"></i> delayed
@@ -261,11 +255,11 @@
           <td>14 July 2018</td>
                    </tr>
            <tr>
-                    <!-- <td>
+                    <td>
                       <img alt="Image placeholder" src="assets/images/products/4.png" class="product-img" alt="product img">
-                    </td> -->
-                    <td>Salbutamol</td>
-                    <td>N2,220 </td>
+                    </td>
+                    <td>Hand Camera</td>
+                    <td>N2,220 USD</td>
                     <td>
                       <span class="badge-dot">
                         <i class="bg-info"></i> on schedule
@@ -279,11 +273,11 @@
           <td>16 July 2018</td>
                    </tr>
            <tr>
-                    <!-- <td>
+                    <td>
                       <img alt="Image placeholder" src="assets/images/products/5.png" class="product-img" alt="product img">
-                    </td> -->
-                    <td>Darrow's solution</td>
-                    <td>N9,890</td>
+                    </td>
+                    <td>Iphone-X Pro</td>
+                    <td>N9,890 USD</td>
                     <td>
                       <span class="badge-dot">
                         <i class="bg-success"></i> completed
@@ -297,11 +291,11 @@
           <td>17 July 2018</td>
                    </tr>
            <tr>
-                    <!-- <td>
+                    <td>
                       <img alt="Image placeholder" src="assets/images/products/6.png" class="product-img" alt="product img">
-                    </td> -->
-                    <td>Biperiden</td>
-                    <td>N3,420</td>
+                    </td>
+                    <td>Ladies Purse</td>
+                    <td>N3,420 USD</td>
                     <td>
                       <span class="badge-dot">
                         <i class="bg-danger"></i> pending
@@ -322,9 +316,59 @@
 
       <div class="row">
          <div class="col-12 col-lg-6 col-xl-6">
+           <div class="card">
+         <div class="card-header">Top Selling Country
+         <div class="card-action">
+         <div class="dropdown">
+         <a href="javascript:void();" class="dropdown-toggle dropdown-toggle-nocaret" data-toggle="dropdown">
+          <i class="icon-options"></i>
+         </a>
+            <div class="dropdown-menu animated fadeIn dropdown-menu-right">
+            <a class="dropdown-item" href="javascript:void();">Action</a>
+            <a class="dropdown-item" href="javascript:void();">Another action</a>
+            <a class="dropdown-item" href="javascript:void();">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="javascript:void();">Separated link</a>
+           </div>
+          </div>
+                 </div>
+        </div>
+              <div class="card-body">
+        
+                     <div id="dashboard-map" style="height: 210px"></div>
+                  
+                     <p><i class="flag-icon flag-icon-us mr-1"></i> USA <span class="float-right">50%</span></p>
+                     <div class="progress" style="height: 5px;">
+                          <div class="progress-bar gradient-royal" role="progressbar" style="width: 50%"></div>
+                      </div>
+
+                      <p class="mt-3"><i class="flag-icon flag-icon-ca mr-1"></i> Canada <span class="float-right">65%</span></p>
+                      <div class="progress" style="height: 5px;">
+                          <div class="progress-bar gradient-ibiza" role="progressbar" style="width: 65%"></div>
+                      </div>
+
+                      <p class="mt-3"><i class="flag-icon flag-icon-gb mr-1"></i> England <span class="float-right">85%</span></p>
+                      <div class="progress" style="height: 5px;">
+                          <div class="progress-bar gradient-meridian" role="progressbar" style="width: 85%"></div>
+                        </div>
+
+                      <p class="mt-3"><i class="flag-icon flag-icon-au mr-1"></i> Australia <span class="float-right">75%</span></p>
+                      <div class="progress" style="height: 5px;">
+                          <div class="progress-bar gradient-orange" role="progressbar" style="width: 75%"></div>
+                        </div>
+
+                      <p class="mt-3"><i class="flag-icon flag-icon-in mr-1"></i> India <span class="float-right">45%</span></p>
+                      <div class="progress" style="height: 5px;">
+                          <div class="progress-bar gradient-violet" role="progressbar" style="width: 55%"></div>
+                        </div>
+              </div>
+            </div>
+         </div>
+
+         <div class="col-12 col-lg-6 col-xl-6">
         
       <div class="card">
-        <div class="card-header border-0">Today's Appointment Visits
+        <div class="card-header border-0">Traffic Resources
          <div class="card-action">
          <div class="dropdown">
          <a href="javascript:void();" class="dropdown-toggle dropdown-toggle-nocaret" data-toggle="dropdown">
@@ -344,40 +388,45 @@
             <table class="table align-items-center table-flush">
            <thead>
             <tr>
-              <th>Date </th>
-              <th>Staff</th>
+              <th>Source</th>
+              <th>Path</th>
               <th>Visits</th>
             </tr>
             </thead>
             <tr>
-              <td> 15 January</td>
-              <td>Dr. Richard</td>
+              <td><i class="fa fa-google-plus text-google"></i> Google</td>
+              <td>google.com</td>
               <td>45 <span class="ml-3" id="dash-chart-8"></span></td>
             </tr>
             <tr>
-              <td>  15 January</td>
-              <td>Dr Schneider</td>
+              <td><i class="fa fa-facebook-square text-facebook"></i> Facebook</td>
+              <td>facebook.com</td>
               <td>56 <span class="ml-3" id="dash-chart-9"></span></td>
             </tr>
             <tr>
-              <td> 15 January</td>
-              <td>Dr. Git</td>
-              <td>45 <span class="ml-3" id="dash-chart-10"></span></td>
+              <td><i class="fa fa-twitter text-twitter"></i> Twitter</td>
+              <td>twitter.com</td>
+              <td>42 <span class="ml-3" id="dash-chart-10"></span></td>
             </tr>
             <tr>
-              <td>  15 January</td>
-              <td>Dr Bronx</td>
-              <td>56 <span class="ml-3" id="dash-chart-11"></span></td>
+              <td><i class="fa fa-linkedin-square text-linkedin"></i> Linkedin</td>
+              <td>linkedin.com</td>
+              <td>52 <span class="ml-3" id="dash-chart-11"></span></td>
             </tr>
             <tr>
-              <td> 15 January</td>
-              <td>Dr. Okon</td>
-              <td>45 <span class="ml-3" id="dash-chart-12"></span></td>
+              <td><i class="fa fa-behance text-behance"></i> Behance</td>
+              <td>behance.com</td>
+              <td>62 <span class="ml-3" id="dash-chart-12"></span></td>
             </tr>
             <tr>
-              <td>  15 January</td>
-              <td>Dr Somi</td>
-              <td>56 <span class="ml-3" id="dash-chart-13"></span></td>
+              <td><i class="fa fa-dribbble text-dribble"></i> Dribble</td>
+              <td>dribble.com</td>
+              <td>72 <span class="ml-3" id="dash-chart-13"></span></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-github text-github"></i> Github</td>
+              <td>github.com</td>
+              <td>33 <span class="ml-3" id="dash-chart-14"></span></td>
             </tr>
           </table>
         
@@ -399,7 +448,7 @@
          </div>
       </div><!--End Row-->
     
-    <!-- <div class="card-group">
+    <div class="card-group">
        <div class="card border-right">
           <div class="card-header">
               Sales This Week
@@ -422,7 +471,7 @@
             <canvas id="dash-chart-16" height="180"></canvas>
           </div>
           <ul class="list-group list-group-flush list shadow-none">
-            <li class="list-group-item d-flex justify-content-between align-items-center">Drips <span class="badge gradient-purpink text-white badge-pill shadow">50</span></li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">Samsung <span class="badge gradient-purpink text-white badge-pill shadow">50</span></li>
             <li class="list-group-item d-flex justify-content-between align-items-center">Apple <span class="badge gradient-orange
              text-white badge-pill shadow">50</span></li>
             <li class="list-group-item d-flex justify-content-between align-items-center">Nokia <span class="badge gradient-meridian text-white badge-pill">50</span></li>
@@ -484,7 +533,7 @@
             <li class="list-group-item d-flex justify-content-between align-items-center">Shoes <span class="badge gradient-yoda text-white badge-pill shadow">25</span></li>
           </ul>
         </div>
-    </div> -->
+    </div>
     
 
 @endsection

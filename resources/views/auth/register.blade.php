@@ -1,5 +1,7 @@
 @extends('auth.layouts.auth')
 
+
+
 @section('auth_content')
 <div class="card mb-0">
    <div class="bg-signup2"></div>
@@ -19,7 +21,7 @@
          <div class="card-title text-uppercase text-center py-2">Sign Up</div>
             <form method="POST" action="{{ route('register') }}">
                 @csrf
-              <div class="form-group">
+              <!-- <div class="form-group">
                <div class="position-relative has-icon-left">
                   <label for="exampleInputName" class="sr-only">Health Institute Name</label>
                   <input type="text" id="exampleInputName" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" value="{{ old('name') }}" required autofocus placeholder="Health Institute Name">
@@ -27,7 +29,22 @@
                       <i class="icon-user"></i>
                   </div>
                </div>
+              </div> -->
+
+              <div class="form-group" data-select2-id="18">
+                 <label for="exampleInputPassword" class="sr-only">Health Institution name</label>
+                <select class="form-control single-select">
+                    <option>India</option>
+                    <option>England</option>
+                    <option>America</option>
+                    <option>China</option>
+                    <option>Australiya</option>
+                    <option>Newzeland</option>
+                    <option>Dubai</option>
+                    <option>United Kingdom</option>
+                </select>
               </div>
+
               <div class="form-group">
                <div class="position-relative has-icon-left">
                   <label for="exampleInputEmailId" class="sr-only">Health Institute Email</label>
@@ -73,4 +90,20 @@
     </div>
 </div>
 
+@endsection
+
+@section('auth_stylesheets')
+  <!--Select Plugins-->
+  <link href="assets/plugins/select2/css/select2.min.css" rel="stylesheet" />
+@endsection
+
+@section('auth_scripts')
+<!--Select Plugins Js-->
+<script src="assets/plugins/select2/js/select2.min.js"></script>
+
+<script>
+  $(document).ready(function() {
+      $('.single-select').select2();
+  });
+</script>
 @endsection
